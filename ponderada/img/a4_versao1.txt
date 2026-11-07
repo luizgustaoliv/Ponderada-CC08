@@ -1,0 +1,13 @@
+TATO CC08 | VERSAO 1 | Sem sincronizacao
+Luiz Gustavo Borges Oliveira
+D1=4 | D2=5 | N=3 | Amostras por execucao=20000
+Ambiente: Windows | Python 3.11.0
+
+Exec  Produzidas  Consumidas  Perdidas  Duplicadas  Invalidas  Travou
+   1       20000       19828       471         299          0  Sim
+   2       20000       19858       537         395          0  Sim
+   3       20000       19872       360         232          0  Sim
+
+Perdidas = 20.000 - quantidade de IDs validos distintos recebidos.
+Duplicadas = repeticoes alem da primeira de cada ID valido.
+Travou = threads pendentes e pelo menos 1 s sem consumo.

@@ -1,0 +1,15 @@
+TATO CC08 | VERSAO 3 | Ordem trocada
+Luiz Gustavo Borges Oliveira
+D1=4 | D2=5 | N=3 | Amostras por execucao=20000
+Ambiente: Windows | Python 3.11.0
+
+Exec  Produzidas  Consumidas  Perdidas  Duplicadas  Invalidas  Travou
+   1           3           0     20000           0          0  Sim
+   2           3           0     20000           0          0  Sim
+   3           3           0     20000           0          0  Sim
+
+Perdidas = 20.000 - quantidade de IDs validos distintos recebidos.
+Duplicadas = repeticoes alem da primeira de cada ID valido.
+Travou = threads pendentes e pelo menos 1 s sem consumo.
+Cenario controlado: produtor segura mutex com o buffer cheio
+antes de iniciar o consumidor; preserva a ordem errada dos waits.

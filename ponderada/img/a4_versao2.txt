@@ -1,0 +1,13 @@
+TATO CC08 | VERSAO 2 | Tres semaforos
+Luiz Gustavo Borges Oliveira
+D1=4 | D2=5 | N=3 | Amostras por execucao=20000
+Ambiente: Windows | Python 3.11.0
+
+Exec  Produzidas  Consumidas  Perdidas  Duplicadas  Invalidas  Travou
+   1       20000       20000         0           0          0  Nao
+   2       20000       20000         0           0          0  Nao
+   3       20000       20000         0           0          0  Nao
+
+Perdidas = 20.000 - quantidade de IDs validos distintos recebidos.
+Duplicadas = repeticoes alem da primeira de cada ID valido.
+Travou = threads pendentes e pelo menos 1 s sem consumo.

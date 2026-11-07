@@ -1,0 +1,55 @@
+{
+  "nome": "Luiz Gustavo Borges Oliveira",
+  "D1": 4,
+  "D2": 5,
+  "N": 3,
+  "total": 20000,
+  "versao": 3,
+  "ambiente": "Windows-10-10.0.26300-SP0",
+  "python": "3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]",
+  "data": "2026-11-06T18:55:20.296826-03:00",
+  "resultados": [
+    {
+      "produzidas": 3,
+      "consumidas": 0,
+      "unicas_validas": 0,
+      "perdidas": 20000,
+      "duplicadas": 0,
+      "invalidas": 0,
+      "travou": true,
+      "ocupadas_final": 3,
+      "duracao_s": 1.0,
+      "primeiras_leituras": [],
+      "ultimas_leituras": [],
+      "execucao": 1
+    },
+    {
+      "produzidas": 3,
+      "consumidas": 0,
+      "unicas_validas": 0,
+      "perdidas": 20000,
+      "duplicadas": 0,
+      "invalidas": 0,
+      "travou": true,
+      "ocupadas_final": 3,
+      "duracao_s": 1.0,
+      "primeiras_leituras": [],
+      "ultimas_leituras": [],
+      "execucao": 2
+    },
+    {
+      "produzidas": 3,
+      "consumidas": 0,
+      "unicas_validas": 0,
+      "perdidas": 20000,
+      "duplicadas": 0,
+      "invalidas": 0,
+      "travou": true,
+      "ocupadas_final": 3,
+      "duracao_s": 1.0,
+      "primeiras_leituras": [],
+      "ultimas_leituras": [],
+      "execucao": 3
+    }
+  ]
+}
